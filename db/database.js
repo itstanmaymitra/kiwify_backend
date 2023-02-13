@@ -2,10 +2,10 @@ const mysql = require("mysql2");
 
 const pool = mysql
 	.createPool({
-		host: "sql12.freemysqlhosting.net",
-		user: "sql12594933",
-		password: "Un3yGEgnWm",
-		database: "sql12594933",
+		host: "sql10.freesqldatabase.com",
+		user: "sql10597916",
+		password: "T4QGFfNDCq",
+		database: "sql10597916",
 		port: 3306,
 	})
 	.promise();
